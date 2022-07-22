@@ -22,6 +22,8 @@ public class TestStoredProcedure {
 					case 1: System.out.println("Enter src a/c id , dest a/c id n amount to transfer");
 						System.out.println(acctDao.transferFunds(sc.nextInt(),sc.nextInt(),sc.nextDouble()));
 						break;
+					case 2: System.out.println("new");
+						break;	
 					case 10:
 						exit = true;
 						acctDao.cleanUp(); // closing CST
